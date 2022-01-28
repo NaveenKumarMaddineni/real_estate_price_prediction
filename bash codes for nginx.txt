@@ -8,3 +8,4 @@ sudo unlink default
 sudo vim bhp.conf
 sudo ln -v -s /etc/nginx/sites-available/bhp.conf inside /etc/nginx/sites-enabled
 sudo service nginx restart
+chrome://flags/#block-insecure-private-network-requests disable this
